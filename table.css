@@ -1,0 +1,39 @@
+th {
+    text-align: center;
+}
+
+
+table {
+    width: 300px;
+    
+}
+
+td {
+
+    text-align: center;
+   
+}
+table,td, th {
+    border: 1px solid #000;
+    
+}
+
+td, th {
+    padding: 10px;
+}
+
+.bordercontainer {
+    border: 2px solid #ccc; 
+    border-radius: 0; 
+    padding: 30px; 
+    border-style: ridge;
+  }
+
+  body {
+    font-family: sans-serif; 
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
